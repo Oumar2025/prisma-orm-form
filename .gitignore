@@ -1,0 +1,9 @@
+﻿node_modules/
+*.db
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+prisma/migrations/*/migration.sql

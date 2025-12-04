@@ -1,0 +1,24 @@
+{
+  "name": "prisma-orm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:generate": "npx prisma generate",
+    "prisma:studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
